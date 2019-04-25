@@ -45,8 +45,8 @@ for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = ListedColormap(('blue', 'magenta'))(i), label = j)
 plt.title('K-NN SKEPP Test 1= Yes 0= No')
-plt.xlabel('Average Age')
-plt.ylabel('Average Estimated Salary')
+plt.xlabel('Gemiddelde leeftijd')
+plt.ylabel('Gemiddelde geschatte leeftijd')
 plt.legend()
 plt.show()
 
@@ -63,7 +63,7 @@ for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = ListedColormap(('blue', 'magenta'))(i), label = j)
 plt.title('K-NN SKEPP Test 1= Yes 0= No')
-plt.xlabel('Average Age')
-plt.ylabel('Average Estimated Salary')
+plt.xlabel('Gemiddelde leeftijd')
+plt.ylabel('Gemiddelde geschatte leeftijd')
 plt.legend()
 plt.show()
