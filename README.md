@@ -1,2 +1,2 @@
 # Machine-Learning-Project
-Machine Learning Project for my Bachelor's thesis
+Machine learning project for my Bachelor's thesis
